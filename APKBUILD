@@ -7,7 +7,7 @@ arch="aarch64"
 license="proprietary"
 depends="wcnss-wlan"
 _repository="x01ad-firmware"
-_commit="6c8891ef840e34a5ca4c9a29a91c68c3c534ab9b"
+_commit="ef2d302b4ed71d1578d6a12be720767e7459fce6"
 source="$pkgname-$_commit.tar.gz::https://github.com/danascape/x01ad-firmware/archive/$_commit.tar.gz"
 options="!strip !check !archcheck !spdx"
 builddir="$srcdir/x01ad-firmware-$_commit"
@@ -19,7 +19,7 @@ _files="wcnss.b00 wcnss.b01 wcnss.b02 wcnss.b03 wcnss.b04
 	adsp.b05 adsp.b06 adsp.b07 adsp.b08 adsp.b09
 	adsp.b10 adsp.b11 adsp.b12 adsp.b13 adsp.b14 adsp.b15 adsp.mdt
 	qdsp6m.qdb
-	a506_zap.b00 a506_zap.b01 a506_zap.b02 a506_zap.mdt"
+	a506_zap.b00 a506_zap.b01 a506_zap.b02 a506_zap.elf a506_zap.mdt"
 _files_prima="WCNSS_wlan_dictionary.dat
 	WCNSS_qcom_cfg.ini
 	WCNSS_qcom_wlan_nv.bin"
