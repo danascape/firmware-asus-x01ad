@@ -38,4 +38,6 @@ package() {
 	done
 }
 
-sha512sums="(run 'pmbootstrap checksum firmware-asus-x01ad' to fill)"
+sha512sums="
+fbf0e4bc755440542d2f924e1317973cc5f3039e633dd1593ed0da25f4d2a59bf6d92ff5954cd7bda9eb9ca12220bb8c397688d96b86d88562049ea9a78bdb34  firmware-asus-x01ad-ef2d302b4ed71d1578d6a12be720767e7459fce6.tar.gz
+"
